@@ -1,0 +1,110 @@
+body {
+    background-image: url("https://img.freepik.com/free-vector/flat-comic-style-background_23-2148807429.jpg?w=740&t=st=1680794000~exp=1680794600~hmac=a17e4caa03ffa702c865f325929a3cf525a2313f65e191805510f6eaa10a4758");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+  
+  * {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-color: #f7f7f7;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-top: 50px;
+    color: #333;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  #search-box {
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 24px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 70%;
+  }
+  
+  #search-btn {
+    padding: 15px 30px;
+    margin-top: 20px;
+    font-size: 24px;
+    border-radius: 50px;
+    border: none;
+    background-color: #f5a623;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+    width: 25%;
+    margin-left: 1%;
+  }
+  
+  #search-btn:hover {
+    background-color: #ffbf47;
+  }
+  
+  #result {
+    margin-top: 50px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 400px; 
+  }
+  
+  img:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+  }
+  
+  h2 {
+    font-size: 36px;
+    margin-top: 20px;
+    color: #f5a623;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  }
+  
+  p {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    font-size: 20px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  li:before {
+    content: "• ";
+    color: #f5a623;
+    font-weight: bold;
+  }
+  

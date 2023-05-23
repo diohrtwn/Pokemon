@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Pokemon Search</title>
+  </head>
+  <body>
+    <pokemon-search>
+      <header>
+        <div class="container">
+          <h1>Pokemon Search</h1>
+          <div class="search-container">
+            <input
+              type="text"
+              placeholder="Enter Pokemon Name or ID"
+              id="search-box"
+            />
+            <button id="search-btn">Search</button>
+          </div>
+        </div>
+      </header>
+      <main>
+        <div class="container">
+          <div class="result-container">
+            <pokemon-result id="result"></pokemon-result>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="container">
+          <p>&copy; 2023 Pokemon Search. All rights reserved.</p>
+        </div>
+      </footer>
+    </pokemon-search>
+    <script src="bundle.js"></script>
+  </body>
+</html>
